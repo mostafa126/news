@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sports-Savage Squad</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+			<a href="index.html" class="logo">Magla</a>
+			<ul>
+				
+				<li><a href="#Categories">Different Categories</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="sport2.html">Sports</a></li>
+                        <li><a href="art.html">Art</a></li>
+                    </ul>
+                </div></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+			</ul>
+		</nav>
+    </header>
+    <div class="mains">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    
+    <h1 class="sport">Sports News</h1>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <h2>Sports Today News</h2>
+    <hr>
+    <p>Enjoy Reading Top Sports News.</p>
+    <div class="row">
+        <div class="coloumn">
+            <div class="content2">
+                <img src="images/Neymar.jfif" alt="Neymarpicture" style="width: 100%;">
+                <a href="https://indianexpress.com/article/sports/football/watch-neymar-freak-ankle-injury-7646823/#:~:text=Neymar%20fell%20in%20full%20flight,against%20Saint%2DEtienne%20on%20Sunday."class="newstitle">News 1</a>
+                <p>Neymar fell in full flight after treading on a defender's leg and twisting his ankle in a way that made his teammates wince. Advertisement.
+                     PSG forward Neymar suffered a horrific ankle injury.
+                </p>
+                
+            </div>
+        </div>
+        <div class="coloumn">
+            <div class="content2">
+                <img src="images/pogba.jpg" alt="pogbapicture" style="width: 100%;">
+                <a href="https://www.carmart.ng/public/blog/paul-pogba-car-collection/"class="newstitle">News 2</a>
+                <p>Paul Pogba whose salary is £15.08 million in 2016 has been seen driving an array of dazzling motors 
+                </p>
+            </div>
+        </div>
+        <div class="coloumn">
+            <div class="content2">
+                <img src="images/sane.jfif" alt="sanepicture" style="width: 100%;">
+                <a href="https://www.sportskeeda.com/football/leroy-sane-net-worth"class="newstitle">News 3</a>
+                <p>Sané moved to Manchester City from Schalke for a fee of £37 million in August 2016. The German currently receives £60,000 per week.
+                </p>
+            </div>
+        </div>
+        <div class="coloumn">
+            <div class="content2">
+                <img src="images/cr7.jfif" alt="Neymarpicture" style="width: 100%;">
+                <a href="https://www.npr.org/2022/04/18/1093402862/cristiano-ronaldo-newborn-son-has-died" class="newstitle">News 4</a>
+                <p>Professional soccer player Cristiano Ronaldo and his partner, Georgina Rodríguez, announced the death of their newborn son in a joint statement posted Monday on social media.
+                </p>
+            </div>
+        </div>
+       
+        
+            <div class="content2">
+                <img src="images/arteta.jfif" alt="Neymarpicture" style="width: 100%;">
+                <a href="https://en.wikipedia.org/wiki/Mikel_Arteta#:~:text=Arsenal%20went%20on%20to%20win,George%20Graham%20in%201986%2D87."class="newstitle">Top News Today</a>
+                <p>Arsenal went on to win the final 2–1 over Chelsea for a record 14th victory, making Arteta the first person to win the FA Cup as both captain and manager of Arsenal.
+                </p>
+            </div>
+        
+    </div>
+
+    </div>
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Savage Squad</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script>
+        const nav = document.querySelector('nav');
+        let prevScrollpos = window.pageYOffset;
+    
+        window.addEventListener('scroll', ()=>{
+            let currentScrollPos = window.pageYOffset;
+    
+            if(prevScrollpos < currentScrollPos){
+                nav.classList.add('hide');
+            }else{
+                nav.classList.remove('hide');
+            }
+    
+            prevScrollpos = currentScrollPos;
+        })
+    </script>
+
+</body>
+<script src="js/main.js"></script>
+</html>
