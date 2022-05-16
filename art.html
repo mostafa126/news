@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Art-Savage Squad</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+			<a href="index.html" class="logo">Magla</a>
+			<ul>
+				
+				<li><a href="#Categories">Different Categories</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="sport2.html">Sports</a></li>
+                        <li><a href="art.html">Art</a></li>
+                    </ul>
+                </div></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+			</ul>
+		</nav>
+    </header>
+    <div class="mains">
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        
+    <h1 class="sport">Sports News</h1>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <h2>Art Today News</h2>
+    <hr>Check Out the latest Art News</p>
+    <div class="row">
+        <div class="coloumn">
+            <div class="content2">
+                <img src="images/Diana.jpg" alt="Dianapicture" style="width: 100%;">
+                <a href="https://www.artnews.com/art-news/news/deana-lawson-deutsche-borse-photography-foundation-prize-1234628485/"class="newstitle" target=_blank>News 1</a>
+                <p>Deana Lawson Wins One of the World’s Top Photography Prizes for Work That ‘Reframes the Black Experience’
+                </p>
+                
+            </div>
+        </div>
+        <div class="coloumn">
+            <div class="content2">
+                <img src="images/Kim.jfif" alt="kimpicture" style="width: 100%;">
+                <a href="https://www.artnews.com/art-news/news/why-kim-kardashian-marilyn-monroe-dress-met-gala-2022-1234628709/" target=_blank class="newstitle">News 2</a>
+                <p>Why Experts Say Kim Kardashian Shouldn’t Have Worn Marilyn Monroe Dress at Met Gala
+                </p>
+            </div>
+        </div>
+        <div class="coloumn">
+            <div class="content2">
+                <img src="images/Jack.jfif" alt="Jackpicture" style="width: 100%;">
+                <a href="https://www.artnews.com/art-news/news/jack-pierson-lisson-gallery-representation-1234628492/" target=_blank class="newstitle">News 3</a>
+                <p>Jack Pierson, Artist with a Cult Following, Joins Lisson Gallery As It Prepares to Expand
+                </p>
+            </div>
+        </div>
+        <div class="coloumn">
+            <div class="content2">
+                <img src="images/Anna.jpeg" alt="annapicture" style="width: 100%;">
+                <a href="https://www.artnews.com/art-news/news/anna-weyant-gagosian-representation-1234627897/" target=_blank class="newstitle">News 4</a>
+                <p>27-Year-Old Painter Anna Weyant Becomes Youngest Artist to Join Gagosian Amid Rumors of Romantic Relationship
+                </p>
+            </div>
+        </div>
+       
+        
+            <div class="content2">
+                <img src="images/Los.jpg" alt="lospicture" style="width: 100%;">
+                <a href="https://www.artnews.com/art-in-america/interviews/down-the-line-lineage-roundtable-1234628137/" target=_blank class="newstitle">Top News Today</a>
+                <p>Ronny Quevedo, los desaparecidos (the arbiter of time), 2018, wax, pattern paper, and gold leaf on muslin, 50 by 62 inches.
+                </p>
+            </div>
+        
+    </div>
+
+    </div>
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Savage Squad</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script>
+        const nav = document.querySelector('nav');
+        let prevScrollpos = window.pageYOffset;
+    
+        window.addEventListener('scroll', ()=>{
+            let currentScrollPos = window.pageYOffset;
+    
+            if(prevScrollpos < currentScrollPos){
+                nav.classList.add('hide');
+            }else{
+                nav.classList.remove('hide');
+            }
+    
+            prevScrollpos = currentScrollPos;
+        })
+    </script>
+     
+</body>
+</html>

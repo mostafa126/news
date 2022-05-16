@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login-Savage Squad</title>
+</head>
+<body>
+        <header>
+            <nav class="navigation">
+                <a href="index.html" class="logo">Magla</a>
+                <ul>
+                    
+                    <li><a href="#Categories">Different Categories</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="sport2.html">Sports</a></li>
+                            <li><a href="art.html">Art</a></li>
+                        </ul>
+                    </div></li>
+                    <li><a href="register.html">Register</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+     <section class="main">
+             </section>
+        <div class="login-box">
+            <h1>login</h1>
+            <div class="textbox">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Username" name="" value="">
+            </div>
+            <div class="textbox">
+                <i class="fa fa-lock"></i>
+                <input type="password" placeholder="Password" name="" value="">
+            </div>
+<input class="btn" type="button" name="" value="Sign in">
+        </div>
+        <footer class="footer">
+            <p class="footer-title">Copyrights @ <span>Savage Squad</span></p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+        <script>
+            const nav = document.querySelector('nav');
+            let prevScrollpos = window.pageYOffset;
+        
+            window.addEventListener('scroll', ()=>{
+                let currentScrollPos = window.pageYOffset;
+        
+                if(prevScrollpos < currentScrollPos){
+                    nav.classList.add('hide');
+                }else{
+                    nav.classList.remove('hide');
+                }
+        
+                prevScrollpos = currentScrollPos;
+            })
+        </script>
+    
+    </body>
+    </html>
+</body>
+</html>
